@@ -1,0 +1,14 @@
+.header-wrapper {
+  display: flex;
+  align-items: center;
+  font-size: 1.3rem;
+  padding: 0.8rem;
+  background-color: #efefef;
+}
+.header-app-name {
+  text-align: center;
+  width: 100%;
+}
+.header-back-button {
+  cursor: pointer;
+}

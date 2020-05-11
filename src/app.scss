@@ -1,0 +1,109 @@
+// Set your brand colors
+
+$family-sans-serif: "Roboto", sans-serif;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/components/navbar.sass";
+@import "../node_modules/bulma/sass/layout/hero.sass";
+@import "../node_modules/bulma/sass/layout/section.sass";
+
+html {
+  font-size: 16px;
+}
+
+// @media only screen and (max-width: 1200px) {
+//   html {
+//     font-size: 12.5px;
+//   }
+// }
+
+// @media only screen and (max-width: 1100px) {
+//   html {
+//     font-size: 11.5px;
+//   }
+// }
+
+// @media only screen and (max-width: 1000px) {
+//   html {
+//     font-size: 10px;
+//   }
+// }
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 12px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  html {
+    font-size: 10px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.fade-in-up {
+  animation-duration: 0.45s;
+  animation-fill-mode: both;
+  animation-name: fade-in-up;
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.center-window {
+  top: 50vh;
+  left: 50%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.center {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}

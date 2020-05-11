@@ -1,0 +1,18 @@
+.image-header-details,
+.image-header-profile-pic {
+  display: inline-block;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.image-header-wrapper {
+  padding: 0.4rem;
+}
+
+.image-header-profile-pic {
+  margin-right: 1rem;
+  .image-header-profile-pic-image {
+    border-radius: 50%;
+    border: 0.7px solid grey;
+    height: 5rem;
+  }
+}

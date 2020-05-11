@@ -1,0 +1,33 @@
+.profile-details-pic,
+.profile-details-follow-setcion,
+.profile-details-follow-setcion-items {
+  display: inline-block;
+  vertical-align: middle;
+}
+.profile-details-pic {
+  width: 35%;
+}
+.profile-details-follow-setcion {
+  width: 40%;
+}
+.profile-details-follow-setcion-items {
+  text-align: center;
+}
+.bold {
+  font-weight: 700;
+}
+
+.profile-details-wrapper {
+  color: black;
+  padding: 2rem 2.5rem 2rem 2.5rem;
+}
+
+.profile-details-pic-image {
+  height: 7rem;
+  border-radius: 50%;
+  border: 0.7px solid grey;
+}
+.profile-details-follow-setcion-items-wrapper {
+  display: flex;
+  justify-content: space-between;
+}

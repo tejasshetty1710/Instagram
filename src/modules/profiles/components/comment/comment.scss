@@ -1,0 +1,32 @@
+.comments-wrapper {
+  margin-bottom: 1rem;
+  &.child {
+    margin-left: 1rem;
+  }
+  .comment-profile-section,
+  .comment-details-section {
+    display: inline-block;
+    vertical-align: text-top;
+  }
+  .comment-details-section {
+    max-width: 88%;
+  }
+  .comment-profile-section {
+    margin-right: 1rem;
+    width: 9%;
+  }
+  .comment-content {
+    word-break: break-word;
+  }
+  .comment-profile-pic {
+    height: 2.5rem;
+    border-radius: 50%;
+    border: 0.7px solid grey;
+  }
+  .comment-username {
+    margin-right: 0.5rem;
+  }
+  .comment-timestamp {
+    color: #8e8e8e;
+  }
+}

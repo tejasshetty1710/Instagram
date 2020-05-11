@@ -1,0 +1,30 @@
+.action-tab-icon-items {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.5rem;
+  cursor: pointer;
+  svg.heart.liked {
+    stroke: red;
+    fill: red;
+  }
+}
+.image-action-tab-view-all-comments {
+  cursor: pointer;
+}
+.action-tab-like-string,
+.action-tab-caption,
+.image-action-tab-view-all-comments,
+.image-action-tab-preview-comments-wrapper,
+.taken-at-timestamp {
+  padding: 0.2rem 0;
+}
+.action-tab-top-section,
+.action-tab-bottom-section {
+  padding: 1rem;
+}
+.action-tab-caption-username {
+  margin-right: 0.5rem;
+}
+.image-action-tab-view-all-comments {
+  color: #00376b;
+}
